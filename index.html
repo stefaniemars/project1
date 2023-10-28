@@ -7,30 +7,38 @@
     <meta name="keywords" content="HTML5, CSS, javascript">
     <meta name="author" content="Стефания">
     <title>Project1</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="header-description">
-            <img src="images/Logo.svg">
-            <h1 class="header-title_h1">Cappuchino News</h1>
-            <h2 class="header-title_h2">Issue 1</h2>
-        </div>
-        <div class="header-img">
-            <img src="images/Hero Image.png">
-        </div>
-    </header>
-    <div class="intro">
-        <p>Welcome to our first D21 newsletter! In this newsletter, we will share tips, 
-           tricks, and information about current topics in the dental world. You can 
-           expect to receive this newsletter every 2 months. Take a quick peek and find 
-           out more by clicking on the attached link.</p>
-        <p>We are also open to any questions or suggestions!</p>
-        <p>Your Dental Support Team from HQ London</p>
+    <div class="bck0 center centered-block">
+            <header class="header">
+                <div class="header-description">
+                    <img src="images/Logo.svg">
+                    <h1 class="header-title_h1 color-blue">Cappuchino News</h1>
+                    <h2 class="header-title_h2">Issue 1</h2>
+                </div>
+                <div class="header-img">
+                    <img src="images/Hero Image.png">
+                </div>
+            </header>
+            <div class="intro">
+                <p>Welcome to our first D21 newsletter! In this newsletter, we will share tips, 
+                tricks, and information about current topics in the dental world. You can 
+                expect to receive this newsletter every 2 months. Take a quick peek and find 
+                out more by clicking on the attached link.</p>
+                <p>We are also open to any questions or suggestions!</p>
+                <p class="intro-italic color-blue">Your Dental Support Team from HQ London</p>
+            </div>
     </div>
+    <main class="centered-block">
+    <div class="bck1 color-dark">
     <div class="section1">
-        <div>
+        <div class="section-heading">
             <h2 class="section-number">01</h2>
+            <img src="images/Rectangle 6.png">
             <h2 class="section-title">Itero 5D-Scanner & NIRI - How to Use It?</h2>
         </div>
             <p>NIRI stands for Near Infra-Red Imaging, which is a system used for early 
@@ -40,27 +48,33 @@
             <p>A multicenter clinical study has confirmed the benefits of this system 
                as a tool for detecting and monitoring interproximal caries lesions 
                above the gingiva without the need for X-ray radiation.</p>
-            <a href="#" class="section_link">Journal of Dentistry (As of October 24, 2021)</a>
+            <a href="#" class="section_link color-blue">Journal of Dentistry (As of October 24, 2021)</a>
     </div>
-    <div class="section2">
-        <div>
-            <h2 class="section-number">02</h2>
-            <h2 class="section-title">Aligner Therapy - Here to Stay</h2>
-        </div>
-        <p>Thanks to various modules like Invisalign-Go and GoExpress 
+    </div>
+    <div class="bck2">
+        <div class="section2">
+            <div class="section-heading">
+                <h2 class="section-number">02</h2>
+                <img src="images/Rectangle 6.png">
+                <h2 class="section-title">Aligner Therapy - Here to Stay</h2>
+            </div>
+            <p>Thanks to various modules like Invisalign-Go and GoExpress 
            Comprehensive, Invisalign aligner therapy is suitable for different 
            complex clinical situations.</p>
-        <p>It is a minimally invasive treatment option for both adults and 
+            <p>It is a minimally invasive treatment option for both adults and 
            teenagers (Invisalign-Teen). If you are not certified yet, please feel 
            free to contact us. Our support team, Dr. Edvin Magro and Dr. 
            Rosamund C. Howard, are available to answer any questions regarding aligner treatment.</p>
-        <p>Simply book an appointment by selecting:</p>
-        <a href="#" class="section_link">Book a 30-minute meeting with Dr. Edvin Magro</a>
-        <a href="#" class="section_link">Book a 30-minute meeting with Dr. Rosamund C. Howard</a>
+            <p>Simply book an appointment by selecting:</p>
+            <a href="#" class="section_link color-blue">Book a 30-minute meeting with Dr. Edvin Magro</a>
+            <a href="#" class="section_link color-blue">Book a 30-minute meeting with Dr. Rosamund C. Howard</a>
+        </div>
     </div>
+    <div class="bck3">
     <div class="section3">
-        <div>
+        <div class="section-heading">
             <h2 class="section-number">03</h2>
+            <img src="images/Rectangle 6.png">
             <h2 class="section-title">DSD Day in Budapest with M. Shaw</h2>
         </div>
         <p>The day provided an insight into the future of dentistry, which is 
@@ -69,11 +83,14 @@
            now be precisely planned, visualized, and executed with absolute 
            predictability using a "copy-and-paste" technique. The treatment of 
            the future will require a comprehensive and interdisciplinary approach.</p>
-        <a href="#" class="section_link">Read more</a>
+        <a href="#" class="section_link color-blue">Read more</a>
     </div>
+    </div>
+    <div class="bck4">
     <div class="section4">
-        <div>
+        <div class="section-heading">
             <h2 class="section-number">04</h2>
+            <img src="images/Rectangle 6.png">
             <h2 class="section-title">Endodontic Billing: BEMA vs. GOZ Coverage</h2>
         </div>
         <p>Endodontic procedures for patients with statutory health insurance 
@@ -85,17 +102,23 @@
            statutory guidelines and meeting scientific standards can 
            sometimes be challenging for practitioners, as these requirements 
            often differ significantly.</p>
-        <a href="#" class="section_link">Read more</a>
+        <a href="#" class="section_link color-blue">Read more</a>
     </div>
-    <footer class="footer centered-block">
+    </div>  
+</main>    
+    <div class="bckfoo">
+    <footer class="footer">
+        <div class="footer-img">
         <img src="images/Frame 35.png">
         <img src="images/Frame 36.png">
         <img src="images/Frame 37.png">
+        </div>
         <p class="footer-text">
             Denticare ltd.
             Something 
             Str. 13 90210 Miami 
             031 86 00 54 55</p>
     </footer>   
+    </div>
 </body>
 </html>
